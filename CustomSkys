@@ -1,0 +1,429 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
+
+-- Instances: 23 | Scripts: 5 | Modules: 0 | Tags: 0
+local G2L = {};
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["IgnoreGuiInset"] = true;
+G2L["1"]["ScreenInsets"] = Enum.ScreenInsets.DeviceSafeInsets;
+G2L["1"]["Name"] = [[CCUUSSTTTOOMMSSKYYSSS]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["1"]["ResetOnSpawn"] = false;
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["ZIndex"] = 1234567890;
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(49, 49, 49);
+G2L["2"]["Size"] = UDim2.new(0.35203, 0, 0.29144, 0);
+G2L["2"]["Position"] = UDim2.new(0.32353, 0, 0.35322, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Name"] = [[GUI3]];
+G2L["2"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.LocalScript
+G2L["3"] = Instance.new("LocalScript", G2L["2"]);
+
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.nrm
+G2L["4"] = Instance.new("TextButton", G2L["2"]);
+G2L["4"]["TextWrapped"] = true;
+G2L["4"]["BorderSizePixel"] = 0;
+G2L["4"]["TextSize"] = 14;
+G2L["4"]["TextScaled"] = true;
+G2L["4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4"]["BackgroundColor3"] = Color3.fromRGB(101, 101, 101);
+G2L["4"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4"]["ZIndex"] = 4;
+G2L["4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["4"]["BackgroundTransparency"] = 0.5;
+G2L["4"]["Size"] = UDim2.new(0.942, 0, 0.1917, 0);
+G2L["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["Text"] = [[Normal]];
+G2L["4"]["Name"] = [[nrm]];
+G2L["4"]["Position"] = UDim2.new(0.50106, 0, 0.13182, 0);
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.nrm.UICorner
+G2L["5"] = Instance.new("UICorner", G2L["4"]);
+G2L["5"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.nrm.UIStroke
+G2L["6"] = Instance.new("UIStroke", G2L["4"]);
+G2L["6"]["Transparency"] = 0.53;
+G2L["6"]["Thickness"] = 0.8;
+G2L["6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.nrm.nrm
+G2L["7"] = Instance.new("LocalScript", G2L["4"]);
+G2L["7"]["Name"] = [[nrm]];
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.UICorner
+G2L["8"] = Instance.new("UICorner", G2L["2"]);
+G2L["8"]["CornerRadius"] = UDim.new(0.05, 0);
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.amt
+G2L["9"] = Instance.new("TextButton", G2L["2"]);
+G2L["9"]["TextWrapped"] = true;
+G2L["9"]["BorderSizePixel"] = 0;
+G2L["9"]["TextSize"] = 14;
+G2L["9"]["TextScaled"] = true;
+G2L["9"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9"]["ZIndex"] = 4;
+G2L["9"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["9"]["BackgroundTransparency"] = 0.5;
+G2L["9"]["Size"] = UDim2.new(0.942, 0, 0.192, 0);
+G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["Text"] = [[Black Amethyst]];
+G2L["9"]["Name"] = [[amt]];
+G2L["9"]["Position"] = UDim2.new(0.50106, 0, 0.36739, 0);
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.amt.amt
+G2L["a"] = Instance.new("LocalScript", G2L["9"]);
+G2L["a"]["Name"] = [[amt]];
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.amt.UICorner
+G2L["b"] = Instance.new("UICorner", G2L["9"]);
+G2L["b"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.amt.UIGradient
+G2L["c"] = Instance.new("UIGradient", G2L["9"]);
+G2L["c"]["Rotation"] = 67;
+G2L["c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(105, 0, 109)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.amt.UIStroke
+G2L["d"] = Instance.new("UIStroke", G2L["9"]);
+G2L["d"]["Transparency"] = 0.53;
+G2L["d"]["Thickness"] = 0.8;
+G2L["d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.sky
+G2L["e"] = Instance.new("TextButton", G2L["2"]);
+G2L["e"]["TextWrapped"] = true;
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["TextSize"] = 14;
+G2L["e"]["TextScaled"] = true;
+G2L["e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(101, 101, 101);
+G2L["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e"]["ZIndex"] = 4;
+G2L["e"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["e"]["BackgroundTransparency"] = 0.5;
+G2L["e"]["Size"] = UDim2.new(0.942, 0, 0.192, 0);
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Text"] = [[WhiteGreenSkyblue]];
+G2L["e"]["Name"] = [[sky]];
+G2L["e"]["Position"] = UDim2.new(0.50106, 0, 0.6114, 0);
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.sky.sky
+G2L["f"] = Instance.new("LocalScript", G2L["e"]);
+G2L["f"]["Name"] = [[sky]];
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.sky.UICorner
+G2L["10"] = Instance.new("UICorner", G2L["e"]);
+G2L["10"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.sky.UIGradient
+G2L["11"] = Instance.new("UIGradient", G2L["e"]);
+G2L["11"]["Rotation"] = 67;
+G2L["11"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(244, 244, 244)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(46, 244, 115)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 204, 223))};
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.sky.UIStroke
+G2L["12"] = Instance.new("UIStroke", G2L["e"]);
+G2L["12"]["Transparency"] = 0.53;
+G2L["12"]["Thickness"] = 0.8;
+G2L["12"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.monblue
+G2L["13"] = Instance.new("TextButton", G2L["2"]);
+G2L["13"]["TextWrapped"] = true;
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["TextSize"] = 14;
+G2L["13"]["TextScaled"] = true;
+G2L["13"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(101, 101, 101);
+G2L["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["13"]["ZIndex"] = 4;
+G2L["13"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["13"]["BackgroundTransparency"] = 0.5;
+G2L["13"]["Size"] = UDim2.new(0.942, 0, 0.192, 0);
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Text"] = [[GraySkyNight]];
+G2L["13"]["Name"] = [[monblue]];
+G2L["13"]["Position"] = UDim2.new(0.49755, 0, 0.8669, 0);
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.monblue.monblue
+G2L["14"] = Instance.new("LocalScript", G2L["13"]);
+G2L["14"]["Name"] = [[monblue]];
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.monblue.UICorner
+G2L["15"] = Instance.new("UICorner", G2L["13"]);
+G2L["15"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.monblue.UIGradient
+G2L["16"] = Instance.new("UIGradient", G2L["13"]);
+G2L["16"]["Rotation"] = 67;
+G2L["16"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(7, 7, 10)),ColorSequenceKeypoint.new(0.515, Color3.fromRGB(62, 75, 72)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.monblue.UIStroke
+G2L["17"] = Instance.new("UIStroke", G2L["13"]);
+G2L["17"]["Transparency"] = 0.53;
+G2L["17"]["Thickness"] = 0.8;
+G2L["17"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.LocalScript
+local function C_3()
+local script = G2L["3"];
+	local UIS = game:GetService("UserInputService")
+	local frame = script.Parent -- Změňte "Frame" na název vašeho objektu
+	
+	UIS.InputBegan:Connect(function(input, gameProcessed)
+		-- Pokud hráč zrovna nepíše do chatu a stiskne klávesu J
+		if not gameProcessed and input.KeyCode == Enum.KeyCode.J then
+			frame.Visible = not frame.Visible -- Přepne viditelnost (true -> false / false -> true)
+		end
+	end)
+	
+end;
+task.spawn(C_3);
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.nrm.nrm
+local function C_7()
+local script = G2L["7"];
+	local button = script.Parent
+	local Lighting = game:GetService("Lighting")
+	
+	local skyConfig = {
+		Back  = "rbxassetid://679786546",
+		Down  = "rbxassetid://680029379",
+		Front = "rbxassetid://679786832",
+		Left  = "rbxassetid://679786679",
+		Right = "rbxassetid://679786411",
+		Up    = "rbxassetid://679787023"
+	}
+	
+	button.MouseButton1Click:Connect(function()
+		-- 1. AGREZIVNÍ ČIŠTĚNÍ: Odstraní všechny staré Sky, Atmosphere a efekty
+		for _, child in ipairs(Lighting:GetChildren()) do
+			if child:IsA("Atmosphere") or child:IsA("SunRaysEffect") or child:IsA("Clouds") then
+				child:Destroy()
+			end
+		end
+	
+		-- 2. Vytvoření tvé růžové oblohy
+		local newSky = Instance.new("Sky")
+		newSky.Name = "CustomSky"
+		newSky.Parent = Lighting
+	
+		newSky.SkyboxBk = skyConfig.Back
+		newSky.SkyboxDn = skyConfig.Down
+		newSky.SkyboxFt = skyConfig.Front
+		newSky.SkyboxLf = skyConfig.Left
+		newSky.SkyboxRt = skyConfig.Right
+		newSky.SkyboxUp = skyConfig.Up
+	
+		-- 3. Zneviditelnění slunce (textura zmizí, ale světlo zůstane)
+		newSky.SunTextureId = "rbxasset://sky/sun.jpg"
+		newSky.SunAngularSize = 4
+	
+		-- 4. Zachování světla (Brightness), aby mapa nebyla tmavá
+		Lighting.Brightness = 2 -- Můžeš zvýšit pro více světla
+		Lighting.GlobalShadows = true -- Ponechá stíny pro hloubku
+		Lighting.OutdoorAmbient = Color3.fromRGB(150, 150, 150) -- Zesvětlí venkovní prostory
+	
+		-- 5. Taktické vyčištění vizuálu
+		Lighting.FogEnd = 100000 
+		Lighting.ClockTime = 14
+	end)
+end;
+task.spawn(C_7);
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.amt.amt
+local function C_a()
+local script = G2L["a"];
+	local button = script.Parent
+	local Lighting = game:GetService("Lighting")
+	
+	local skyConfig = {
+		Back  = "http://www.roblox.com/asset/?id=17279854976",
+		Down  = "http://www.roblox.com/asset/?id=17279856318",
+		Front = "http://www.roblox.com/asset/?id=17279858447",
+		Left  = "http://www.roblox.com/asset/?id=17279860360",
+		Right = "http://www.roblox.com/asset/?id=17279862234",
+		Up    = "http://www.roblox.com/asset/?id=17279864507"
+	}
+	
+	button.MouseButton1Click:Connect(function()
+		-- 1. AGREZIVNÍ ČIŠTĚNÍ: Odstraní všechny staré Sky, Atmosphere a efekty
+		for _, child in ipairs(Lighting:GetChildren()) do
+			if child:IsA("Atmosphere") or child:IsA("SunRaysEffect") or child:IsA("Clouds") then
+				child:Destroy()
+			end
+		end
+	
+		-- 2. Vytvoření tvé růžové oblohy
+		local newSky = Instance.new("Sky")
+		newSky.Name = "CustomSky"
+		newSky.Parent = Lighting
+	
+		newSky.SkyboxBk = skyConfig.Back
+		newSky.SkyboxDn = skyConfig.Down
+		newSky.SkyboxFt = skyConfig.Front
+		newSky.SkyboxLf = skyConfig.Left
+		newSky.SkyboxRt = skyConfig.Right
+		newSky.SkyboxUp = skyConfig.Up
+	
+		-- 3. Zneviditelnění slunce (textura zmizí, ale světlo zůstane)
+		newSky.SunTextureId = ""
+		newSky.SunAngularSize = 0
+	
+		-- 4. Zachování světla (Brightness), aby mapa nebyla tmavá
+		Lighting.Brightness = 2 -- Můžeš zvýšit pro více světla
+		Lighting.GlobalShadows = true -- Ponechá stíny pro hloubku
+		Lighting.OutdoorAmbient = Color3.fromRGB(150, 150, 150) -- Zesvětlí venkovní prostory
+	
+		-- 5. Taktické vyčištění vizuálu
+		Lighting.FogEnd = 100000 
+		Lighting.ClockTime = 14
+	end)
+end;
+task.spawn(C_a);
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.sky.sky
+local function C_f()
+local script = G2L["f"];
+	local button = script.Parent
+	local Lighting = game:GetService("Lighting")
+	
+	-- Konfigurace ID pro tvou novou oblohu (zde si vlož ta nová ID)
+	local skyConfig = {
+		Back  = "http://www.roblox.com/asset/?id=9678579801",
+		Down  = "http://www.roblox.com/asset/?id=9678580581",
+		Front = "http://www.roblox.com/asset/?id=9678581455",
+		Left  = "http://www.roblox.com/asset/?id=9678583373",
+		Right = "http://www.roblox.com/asset/?id=9678584222",
+		Up    = "http://www.roblox.com/asset/?id=9678585103"
+	}
+	
+	button.MouseButton1Click:Connect(function()
+		-- 1. AGREZIVNÍ ČIŠTĚNÍ: Odstraní všechny staré Sky, Atmosphere a efekty
+		for _, child in ipairs(Lighting:GetChildren()) do
+			if child:IsA("Atmosphere") or child:IsA("SunRaysEffect") or child:IsA("Clouds") then
+				child:Destroy()
+			end
+		end
+	
+		-- 2. VYTVOŘENÍ NOVÉ OBLOHY
+		local newSky = Instance.new("Sky")
+		newSky.Name = "ActiveCustomSky" -- Unikátní název pro kontrolu v Exploreru
+	
+		newSky.SkyboxBk = skyConfig.Back
+		newSky.SkyboxDn = skyConfig.Down
+		newSky.SkyboxFt = skyConfig.Front
+		newSky.SkyboxLf = skyConfig.Left
+		newSky.SkyboxRt = skyConfig.Right
+		newSky.SkyboxUp = skyConfig.Up
+	
+		-- Nastavení slunce
+		newSky.SunTextureId = "rbxasset://sky/sun.jpg"
+		newSky.SunAngularSize = 21
+	
+		newSky.Parent = Lighting
+	
+		-- 3. ÚPRAVA OSVĚTLENÍ (Forge obou skriptů)
+		Lighting.Brightness = 2 
+		Lighting.GlobalShadows = true
+		Lighting.OutdoorAmbient = Color3.fromRGB(150, 150, 150)
+		Lighting.FogEnd = 100000 
+		Lighting.ClockTime = 14
+	
+		-- Volitelné: Pokud by byla mapa stále tmavá, odkomentuj řádek níže:
+		-- Lighting.Ambient = Color3.fromRGB(255, 255, 255) 
+	
+		print("Obloha byla úspěšně přenastavena!")
+	end)
+	
+end;
+task.spawn(C_f);
+-- StarterGui.CCUUSSTTTOOMMSSKYYSSS.GUI3.monblue.monblue
+local function C_14()
+local script = G2L["14"];
+	local button = script.Parent
+	local Lighting = game:GetService("Lighting")
+	
+	local skyConfig = {
+		Back  = "http://www.roblox.com/asset/?id=4498828382",
+		Down  = "http://www.roblox.com/asset/?id=4498828812",
+		Front = "http://www.roblox.com/asset/?id=4498829917",
+		Left  = "http://www.roblox.com/asset/?id=4498830911",
+		Right = "http://www.roblox.com/asset/?id=4498830417",
+		Up    = "http://www.roblox.com/asset/?id=4498831746"
+	}
+	
+	button.MouseButton1Click:Connect(function()
+		-- 1. AGREZIVNÍ ČIŠTĚNÍ: Odstraní všechny staré Sky, Atmosphere a efekty
+		for _, child in ipairs(Lighting:GetChildren()) do
+			if child:IsA("Atmosphere") or child:IsA("SunRaysEffect") or child:IsA("Clouds") then
+				child:Destroy()
+			end
+		end
+	
+		-- 2. Vytvoření tvé růžové oblohy
+		local newSky = Instance.new("Sky")
+		newSky.Name = "CustomSky"
+		newSky.Parent = Lighting
+	
+		newSky.SkyboxBk = skyConfig.Back
+		newSky.SkyboxDn = skyConfig.Down
+		newSky.SkyboxFt = skyConfig.Front
+		newSky.SkyboxLf = skyConfig.Left
+		newSky.SkyboxRt = skyConfig.Right
+		newSky.SkyboxUp = skyConfig.Up
+	
+		-- 3. Zneviditelnění slunce (textura zmizí, ale světlo zůstane)
+		newSky.SunTextureId = ""
+		newSky.SunAngularSize = 0
+	
+		-- 4. Zachování světla (Brightness), aby mapa nebyla tmavá
+		Lighting.Brightness = 2 -- Můžeš zvýšit pro více světla
+		Lighting.GlobalShadows = true -- Ponechá stíny pro hloubku
+		Lighting.OutdoorAmbient = Color3.fromRGB(150, 150, 150) -- Zesvětlí venkovní prostory
+	
+		-- 5. Taktické vyčištění vizuálu
+		Lighting.FogEnd = 100000 
+		Lighting.ClockTime = 14
+	end)
+	
+end;
+task.spawn(C_14);
+
+return G2L["1"], require;
